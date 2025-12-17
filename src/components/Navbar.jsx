@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../styles/navbar.css";
-import profile from "../assets/profile.jpeg";
+// import profile from "../assets/profile.jpeg";
 
 export default function Navbar() {
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
@@ -37,7 +37,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="nav-content">
           <div className="logo" onClick={()=>scrollToSection('hero')}>
-            <img src={profile} alt="Logo" width={40} height={40} style={{objectFit:"cover",borderRadius:"50%"}} className="logo-image" />
+            {/* <img src={profile} alt="Logo" width={40} height={40} style={{objectFit:"cover",borderRadius:"50%"}} className="logo-image" /> */}
             <div className="logo-text"> 
             Anil Reddy</div>
           </div>
@@ -61,7 +61,6 @@ export default function Navbar() {
             <div className={`mobile-menu ${isMobileMenuOpen ? 'active' : ''}`} onClick={(e) => e.stopPropagation()}>
               <div className="mobile-menu-header">
                 <div className="mobile-menu-logo">
-                  <img src={profile} alt="Logo" />
                   <div className="mobile-menu-logo-text">Anil Reddy</div>
                 </div>
                 <button type="button" className="mobile-menu-close" onClick={closeMobileMenu} aria-label="Close menu">
