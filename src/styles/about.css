@@ -1,0 +1,43 @@
+#about {
+  padding: 100px 120px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#about h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.about-content {
+  max-width: 800px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.about-content p:first-child {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  #about {
+    padding: 80px 20px;
+  }
+
+  #about h2 {
+    font-size: 36px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.dark {
+  background: #121212;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
