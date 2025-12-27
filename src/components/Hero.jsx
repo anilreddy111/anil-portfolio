@@ -7,12 +7,13 @@ export default function Hero() {
         <h1>
           Hi, I'm <span>Anil Reddy</span>
         </h1>
-        <h2>Software Engineer | Full Stack Developer</h2>
+        <h2>Software Engineer | Full Stack Developer | AI/ML Enthusiast</h2>
 
         <p>
-          Passionate Software Engineer with expertise in building scalable web applications using modern
-          technologies. Experienced in AngularJS, Spring Boot, React, and microservices architecture.
-          Committed to delivering high-performance solutions that drive business growth and user satisfaction.
+          Passionate Software Engineer with expertise in building scalable web applications and AI-driven solutions. 
+          Experienced in AngularJS, Spring Boot, React, and microservices architecture. 
+          Actively exploring LLMs, generative AI, and machine learning to create intelligent applications. 
+          Committed to delivering high-performance, innovative solutions that drive business growth and user satisfaction.
         </p>
 
         <div className="social-links">

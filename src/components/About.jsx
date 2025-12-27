@@ -7,9 +7,9 @@ export default function About() {
       <div className="about-content">
         <p>
           I am a passionate Software Engineer with a strong foundation in full-stack development,
-          specializing in building scalable web applications. Currently working at GTM Buddy,
+          specializing in building scalable web applications and AI integration. Currently working at GTM Buddy,
         </p>
-        <p>Now, I’m an aspiring software developer with internship experience, focused on building projects, writing clean code, and learning something new every day.</p>
+        <p>Now, I'm an aspiring software developer with internship experience, focused on building projects, writing clean code, and learning something new every day. I have expertise in AI and AI integration.</p>
       </div>
     </section>
   );
