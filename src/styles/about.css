@@ -1,5 +1,5 @@
 #about {
-  padding: 100px 120px;
+  padding: 10px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -11,9 +11,7 @@
   color: #ffffff;
 }
 
-.about-content {
-  max-width: 800px;
-}
+
 
 .about-content p {
   font-size: 18px;
@@ -30,7 +28,7 @@
 
 @media (max-width: 768px) {
   #about {
-    padding: 80px 20px;
+    padding: 10px;
   }
 
   #about h2 {
